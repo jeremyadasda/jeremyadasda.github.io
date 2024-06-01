@@ -43,6 +43,11 @@
             border: solid 2px;
             box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
         }
+        .im{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
     </style>
 </head>
 <body>
@@ -81,16 +86,16 @@
                 </div>
             </div>
             
-            <div class="col-md-8 borde" style="margin-top: 2%;">
+            <div class="col-md-8 borde im" style="margin-top: 2%;">
                 <h2 style="font-family: Hanalei Fill, system-ui">dark pepito es un pepito bien dark xdd</h2>
             </div>
-            <div class="col-md-8 borde" style="margin-top: 2%;" class="img-fluid">
+            <div class="col-md-8 borde im " style="margin-top: 2%;" class="img-fluid">
                 <img src="./img/yum.png" alt="">
             </div>
-            <div class="col-md-8 borde" style="margin-top: 2%;">
+            <div class="col-md-8 borde im" style="margin-top: 2%;">
                 <img src="./img/mixitro.png" alt="" class="img-fluid">
             </div>
-            <div class="col-md-8 borde" style="margin-top: 2%;margin-bottom: 5%;">
+            <div class="col-md-8 borde im" style="margin-top: 2%;margin-bottom: 5%;">
                 <img src="./img/ppxi gren.png" alt="" class="img-fluid">
             </div>
         </div>
@@ -119,11 +124,6 @@
             }
         }
         printSubstrings();
-        var imgs = document.getElementsByClassName("carousel-item");
-        
-        for(im in imgs){
-            console.log(im);
-        }
         
     </script>
     <script>
