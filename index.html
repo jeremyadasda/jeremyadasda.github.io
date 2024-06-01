@@ -17,8 +17,8 @@
             margin-top: 1%;
             border: solid 2px;
             box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
-            white-space: nowrap; 
-            overflow: hidden; 
+            white-space: nowrap; /* Prevent text from wrapping */
+            overflow: hidden; /* Hide overflowing text */
             text-overflow: ellipsis;
         }
         #fotbox{
@@ -30,14 +30,14 @@
             height: 70vh; 
         }
         .carousel-item img {
-            max-height: 100%;
-            max-width: 80%;
-            width: auto;
+           
+            width: 70%;
             height: auto;
             position: relative;
             top: 50%;
             left: 50%;
             transform: translate(-50%, 2%);
+            object-fit: contain;
         }
         .borde{
             border: solid 2px;
@@ -82,8 +82,17 @@
             </div>
             
             <div class="col-md-8 borde" style="margin-top: 2%;">
-                <h2 style="font-family: Hanalei Fill, system-ui">dark pepito es un pepito bien dark xdd y el duvan es lindito</h2></div>
-
+                <h2 style="font-family: Hanalei Fill, system-ui">dark pepito es un pepito bien dark xdd</h2>
+            </div>
+            <div class="col-md-8 borde" style="margin-top: 2%;" class="img-fluid">
+                <img src="./img/yum.png" alt="">
+            </div>
+            <div class="col-md-8 borde" style="margin-top: 2%;">
+                <img src="./img/mixitro.png" alt="" class="img-fluid">
+            </div>
+            <div class="col-md-8 borde" style="margin-top: 2%;margin-bottom: 5%;">
+                <img src="./img/ppxi gren.png" alt="" class="img-fluid">
+            </div>
         </div>
         
     </div>
@@ -110,10 +119,15 @@
             }
         }
         printSubstrings();
+        var imgs = document.getElementsByClassName("carousel-item");
         
+        for(im in imgs){
+            console.log(im);
+        }
         
-    
     </script>
-    
+    <script>
+
+    </script>
 </body>
 </html>
