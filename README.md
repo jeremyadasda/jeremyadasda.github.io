@@ -12,4 +12,7 @@ En el directorio base utilizar el comando npx para crear el esqueleto de la apli
 2. Inicia el servidor de prueba con el comando "npm start"
 3. listo <3 (deberia?)
 
+### COMO OBTENER NPM (NODE.JS)
+[NODE.JS](https://nodejs.org/en/download/prebuilt-installer)
 
+SALUDOS LES MANDA SU PEPITO UWU
