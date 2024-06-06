@@ -15,4 +15,6 @@ En el directorio base utilizar el comando npx para crear el esqueleto de la apli
 ### COMO OBTENER NPM (NODE.JS)
 [NODE.JS](https://nodejs.org/en/download/prebuilt-installer)
 
+### EL RESULTADO DE ESTA PAGINA (npm run build) esta disponible en [DARKPEPI.ME] (https://darkpepi.me)
+
 SALUDOS LES MANDA SU PEPITO UWU
