@@ -1,1 +1,0 @@
-# jeremyadasda.github.io
